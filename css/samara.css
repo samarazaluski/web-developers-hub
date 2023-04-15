@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu ul{
+    background-color: #CCC;
+    margin: 0;
+    padding: 2em;
+}
+.menu li{
+    display: inline;
+    padding: 0 1em 0 0;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+header, section, footer{
+    padding: 0 2em;
+}
+#imagem-perfil{
+    width: 200px;
+    max-width: 600px;
+    border-radius: 100px;
+    position: relative;
+    left: 550px;
+    top: 30px;
+}
+.button{
+    background-color: blueviolet;
+    color: white;
+    padding: 1em;
+    margin: 1em 0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0.5em;
+    position: relative;
+    left: 400px;
+    top: 65px;
+    
+}
+
+section p{
+    width: 500px;
+    box-shadow: 0 10px 25px blueviolet;
+    position: relative;
+    left: 400px;
+    top: 70px;
+}
+
+section h2{
+    position: relative;
+    left: 550px;
+}
+
+footer{
+    position: relative;
+    left: 100px;
+
+}
